@@ -143,7 +143,7 @@ join_server <port>
 или отправки результата этих операций.
 
 ## CI/CD
-Github: https://github.com/BorisTestov/outer_join
-Bintray: https://bintray.com/boristestov/outer_join/main
-Travis: https://travis-ci.com/github/BorisTestov/outer_join
+Github: https://github.com/BorisTestov/outer_join <br>
+Bintray: https://bintray.com/boristestov/outer_join/main <br>
+Travis: https://travis-ci.com/github/BorisTestov/outer_join <br>
 Github-pages: https://github.com/BorisTestov/outer_join.github.io (https://boristestov.github.io/outer_join.github.io/index.html)
