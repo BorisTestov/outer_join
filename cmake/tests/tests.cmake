@@ -1,6 +1,7 @@
-file(GLOB TEST_SOURCES "${SRC_DIR}/*.cpp" "${SRC_DIR}/tests/*.cpp")
+file(GLOB TEST_SOURCES "${SRC_DIR}/*.cpp" "${SRC_DIR}/commands/*.cpp" "${SRC_DIR}/tests/*.cpp")
 file(GLOB TEST_HEADERS
-        "${INCLUDE_DIR}/*.h" "${INCLUDE_DIR}/*.hpp")
+        "${INCLUDE_DIR}/*.h" "${INCLUDE_DIR}/*.hpp"
+        "${INCLUDE_DIR}/commands/*.h" "${INCLUDE_DIR}/commands/*.hpp")
 list(REMOVE_ITEM TEST_SOURCES ${SRC_DIR}/main.cpp)
 
 add_executable(test_${PROJECT_NAME} ${TEST_SOURCES} ${TEST_HEADERS})
